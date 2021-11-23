@@ -1,0 +1,102 @@
+  #Education-program {
+    padding: 250px 0; 
+  }
+  
+  #Education-program .title {    
+    position: relative;
+  }
+  
+  #Education-program .title h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+    font-weight:bold;
+    width: 50%;
+  }
+  
+  #Education-program .title span {
+    font-size: 50px;
+    margin-top:-30px;
+    display: block;
+    color: gray;
+  }
+  
+  #Education-program .title .description {
+    margin-top: 20px;
+  }
+
+  #Education-program .title .detail {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 70%;
+    font-weight: bold;
+  }
+
+  #Education-program a{
+  text-decoration: none;
+  }
+  
+  #Education-program .row{
+    display: flex;
+    height: 256px;
+  }
+
+  #Education-program .col-3 h4 {
+    margin-top: 100px;
+    color: black;
+    font-weight: bold;  
+  }
+ 
+  #Education-program .col-3:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    z-index: 1;
+    border-width: 0px;
+  }
+  #Education-program .col-3{
+    border: 2px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: rgb(153, 153, 153);
+  }
+  
+  #Education-program .col-3.motion:hover{
+    background-color: rgb(197, 16, 76);
+  }
+  #Education-program .col-3.digital-marketing:hover{
+    background-color: rgb(140, 16, 197);
+  }
+  #Education-program .col-3.digital:hover{
+    background-color: rgb(226, 123, 27);
+  }
+  #Education-program .col-3.programming:hover{
+    background-color: rgb(32, 104, 199);
+  }
+  #Education-program .col-3.web:hover{
+    background-color: rgb(211, 214, 18);
+  }
+  #Education-program .col-3.system:hover{
+    background-color: rgb(8, 173, 8);
+  }
+  #Education-program .col-3.UX:hover{
+    background-color: rgb(211, 214, 18);
+  }
+
+  #Education-program .col-3.motion{
+    border-right:0;
+    border-bottom:0;
+  }
+  #Education-program .col-3.digital-marketing{
+    border-bottom:0; 
+  }
+  #Education-program .col-3.digital{
+    border-right:0;
+    border-bottom:0;  
+  }
+  #Education-program .col-3.programming{
+    border-right:0;  
+  }
+  #Education-program .col-3.web{
+    border-right:0;
+  }    
+
+
